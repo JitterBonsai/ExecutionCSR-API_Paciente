@@ -1,0 +1,27 @@
+{
+  "name": "api_paciente",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExecutionCSR/api_paciente.git"
+  },
+  "author": "caio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ExecutionCSR/api_paciente/issues"
+  },
+  "homepage": "https://github.com/ExecutionCSR/api_paciente#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.4.2",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.32.1"
+  }
+}
